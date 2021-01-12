@@ -1,0 +1,461 @@
+@import url('../../assets/styles/common.css');
+
+::ng-deep .mat-grid-tile {
+  background: lightblue;
+}
+
+::ng-deep .mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
+  /*box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);*/
+}
+
+.desc h3 {
+  line-height: 1.3;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.desc h3:after {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  right: 0;
+  content: '';
+  width: 30px;
+  height: 1px;
+  background: #000000;
+  margin: 0 auto;
+}
+
+.header {
+  transition: 1s all ease;
+}
+
+.header:hover {
+  background: rgb(248, 248, 248);
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
+  transition: 1s all ease;
+}
+
+.header_change {
+  position: fixed;
+  background: rgb(248, 248, 248);
+  width: 100%;
+  z-index: 10;
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
+  top: 0;
+  left: 0;
+  transition: 2s all ease;
+}
+
+/* Blocks */
+.site-blocks-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position: center center;
+  overflow: hidden;
+  position: relative;
+  top: -70px;
+  left: 0;
+}
+
+.site-blocks-cover .lead {
+  font-family: "Arbutus Slab", serif;
+  font-size: 1.3rem;
+  color: #1a1a1a;
+}
+
+.site-blocks-cover.overlay {
+  position: relative;
+}
+
+.site-blocks-cover.overlay:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0);
+}
+
+@media (max-width: 991.98px) {
+  .site-blocks-cover.overlay:before {
+    background: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.site-blocks-cover,
+.site-blocks-cover>.container,
+.site-blocks-cover>.container>.row {
+  min-height: 600px;
+  height: 100vh;
+}
+
+.site-blocks-cover .text-intro {
+  position: relative;
+  z-index: 2;
+}
+
+.site-blocks-cover h1 {
+  font-size: 3rem;
+  font-family: "Arbutus Slab", serif;
+}
+
+.site-blocks-cover .img-face {
+  position: absolute;
+  right: -5%;
+  bottom: 0;
+  max-width: 950px;
+}
+
+@media (max-width: 991.98px) {
+  .site-blocks-cover .img-face {
+    right: -25%;
+  }
+}
+
+.list-animate {
+  padding: 5px 0;
+  transition: .2s all ease;
+}
+
+.list-animate:hover {
+  margin-left: 10px;
+  transition: .2s all ease;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.youtube {
+  color: #c4302b;
+}
+
+.linkedin {
+  color: #0e76a8;
+}
+
+.icon-color-animate {
+  transition: .5s all ease;
+}
+
+.icon-color-animate:hover {
+  color: black;
+  transition: 1s all ease;
+}
+
+.hire-me {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+  background-attachment: fixed;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  position: relative;
+}
+
+.hire-me>.hire-me-content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(219, 224, 219, 0.603)
+}
+
+.hire-me>.hire-me-content .hire-me-item {
+  color: #000000;
+  position: relative;
+  z-index: 1;
+}
+
+.hire-me-txt {
+  font-size: 40px;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hire-me-btn {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+.hire-me-btn::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.hire-me-btn:hover,
+.hire-me-btn:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+.hire-me-btn:hover::before,
+.hire-me-btn:focus::before {
+  opacity: 1;
+}
+
+.hire-me-btn::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+.hire-me-btn:hover::after,
+.hire-me-btn:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 5px solid rgb(0, 0, 0);
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em;
+  /* Adjust as needed */
+  animation:
+    typing 5.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: rgb(0, 0, 0);
+  }
+}
+
+.glow-on-hover {
+  font-weight: bold;
+  font-size: 18px;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.glow-on-hover:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glow-on-hover:active {
+  color: #000
+}
+
+.glow-on-hover:active:after {
+  background: transparent;
+}
+
+.glow-on-hover:hover:before {
+  opacity: 1;
+}
+
+.glow-on-hover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+.wrapper {
+  position: absolute;
+  bottom: -8%;
+  left: 3%;
+  /*transform: translate(-50%, -50%);*/
+}
+
+.link_wrapper {
+  position: relative;
+}
+
+.submit {
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #333;
+  transition: all .35s;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all .35s;
+}
+
+.icon svg {
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #00FFCB;
+  transition: all .35s;
+}
+
+.submit:hover {
+  width: 200px;
+  border: 3px solid #00FFCB;
+  background: transparent;
+  color: #00FFCB;
+}
+
+.submit:hover+.icon {
+  border: 3px solid #00FFCB;
+  right: -25%;
+}
+
+
+@media (max-width: 768px) {
+  .hire-me-btn {
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 100%;
+  }
+
+  .site-blocks-cover {
+    font-size: 0.8rem;
+  }
+
+  .site-blocks-cover h1 {
+    font-size: 1.8rem;
+  }
+}

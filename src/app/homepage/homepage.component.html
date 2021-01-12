@@ -1,0 +1,417 @@
+<header id="header" class="container-fluid sticky-top header" [class.header_change]="headerVariable">
+  <div class="container">
+    <mat-toolbar class="bg-transparent">
+      <span class="logo navbar-brand">AlKayz</span>
+      <span class="spacer"></span>
+      <span class="nav-link text-capitalize desktop-view-only">Home</span>
+      <span class="nav-link text-capitalize desktop-view-only">About Me</span>
+      <span class="nav-link text-capitalize desktop-view-only">Portfolio</span>
+      <span class="nav-link text-capitalize desktop-view-only">Contact</span>
+      <button mat-button [matMenuTriggerFor]="beforeMenu" class="mobile-view-only">
+        <fa-icon [icon]="faBars" size="2x"></fa-icon>
+      </button>
+      <mat-menu #beforeMenu="matMenu" xPosition="before">
+        <span mat-menu-item class="text-capitalize"><a href="#home-section">Home</a></span>
+        <span mat-menu-item class="text-capitalize"><a href="#about">About Me</a></span>
+        <span mat-menu-item class="text-capitalize"><a href="#projects">Portfolio</a></span>
+        <span mat-menu-item class="text-capitalize"><a href="#contact">Contact</a></span>
+      </mat-menu>
+    </mat-toolbar>
+  </div>
+</header>
+<main>
+  <div class="site-blocks-cover overlay bg-light" id="home-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="text-black pb-4 typewriter activewords">I'm Allan Kanyemba</h1>
+              <p class="lead pb-3" data-aos="fade-left" data-aos-duration="2000">If you're a business/individual seeking
+                web presence or looking to hire, get in touch.
+              </p>
+              <button mat-raised-button class="glow-on-hover hire-me-clicked" type="button">LET'S TALK !</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="assets/images/face.png" alt="Image" class="img-face">
+  </div>
+  <div id="about" class="container about-section pb-5 pt-5">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <div class="about-me">
+          <div data-aos="fade-down" data-aos-duration="1000">
+            <h1 class="display-1 font-weight-bold">About Me</h1>
+            <p class="paragraph pb-5">
+              Allan Kanyemba is Web App developer and Geospatial Systems developer from Zimbabwe. He has been in fields
+              for sometime coming up with business and customer oriented solutions using geospatial technologies coupled
+              with web apps.
+            </p>
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm-12 col-md-6" data-aos="fade-left" data-aos-duration="2000">
+              <h3 class="text-uppercase">Web App Development</h3>
+              <p class="paragraph">
+                Clean, modern designs - optimised for perfomance, search engines and converting users to customers.
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-6" data-aos="fade-left" data-aos-duration="3000">
+              <h3 class="text-uppercase">Geo-Information</h3>
+              <p class="paragraph">
+                Browser-based software application development tasks which require unique solutions to web GIS or web
+                mapping problems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="skills" class="container skills-section pt-5">
+    <div class="heading text-center mx-auto pb-5">
+      <h1 class="display-1 font-weight-bold">Skills</h1>
+      <h5 class="lead">Strengths and Weaknesses</h5>
+    </div>
+    <div class="skills-rating">
+      <div class="row">
+        <div class="col-sm-12 col-md-6" data-aos="fade-right" data-aos-duration="2000">
+          <div class="photoshop pb-3">
+            <h3>Photoshop&nbsp;(&nbsp;{{photoshopValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{photoshopValue}}"></mat-progress-bar>
+          </div>
+          <div class="qgis pb-3">
+            <h3>QGIS&nbsp;(&nbsp;{{qgisValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{qgisValue}}"></mat-progress-bar>
+          </div>
+          <div class="arcgis pb-3">
+            <h3>ArcGIS&nbsp;(&nbsp;{{arcgisValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{arcgisValue}}"></mat-progress-bar>
+          </div>
+          <div class="autocad pb-3">
+            <h3>Autocad&nbsp;(&nbsp;{{autocadValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{autocadValue}}"></mat-progress-bar>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6" data-aos="fade-left" data-aos-duration="2000">
+          <div class="angular pb-3">
+            <h3>Angular&nbsp;(&nbsp;{{angularValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{angularValue}}"></mat-progress-bar>
+          </div>
+          <div class="html5 pb-3">
+            <h3>Html5&nbsp;(&nbsp;{{htmlValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{htmlValue}}"></mat-progress-bar>
+          </div>
+          <div class="css3 pb-3">
+            <h3>CSS3&nbsp;(&nbsp;{{cssValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{cssValue}}"></mat-progress-bar>
+          </div>
+          <div class="autocad pb-3">
+            <h3>PHP&nbsp;(&nbsp;{{phpValue}}%&nbsp;)</h3>
+            <mat-progress-bar mode="determinate" value="{{phpValue}}"></mat-progress-bar>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="what-i-do">
+      <div class="heading text-center mx-auto pb-5 pt-5">
+        <h1 class="display-1 font-weight-bold">What I Do</h1>
+        <h5 class="lead text-capitalize">Strategise, Design and add a pinch of magic</h5>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="what-i-do-one" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <mat-card class="explore text-center mb-3">
+              <mat-card-content>
+                <div class="desc">
+                  <h3 class="mb-3 text-uppercase">Explore</h3>
+                </div>
+                <ul class="list-unstyled pt-5">
+                  <li>
+                    <h2>Research</h2>
+                  </li>
+                  <li>
+                    <h2>Document</h2>
+                  </li>
+                  <li>
+                    <h2>Product Strategy</h2>
+                  </li>
+                  <li>
+                    <h2>UX Strategy</h2>
+                  </li>
+                </ul>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="what-i-do-two" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+            <mat-card class="create text-center mb-3">
+              <mat-card-content>
+                <div class="desc">
+                  <h3 class="mb-3 text-uppercase">Create</h3>
+                </div>
+                <ul class="list-unstyled pt-5">
+                  <li>
+                    <h2>Information</h2>
+                  </li>
+                  <li>
+                    <h2>UX/UI Design</h2>
+                  </li>
+                  <li>
+                    <h2>Solutions</h2>
+                  </li>
+                  <li>
+                    <h2>Branding</h2>
+                  </li>
+                </ul>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="what-i-do-three" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+            <mat-card class="learn text-center mb-3">
+              <mat-card-content>
+                <div class="desc">
+                  <h3 class="mb-3 text-uppercase">Learn</h3>
+                </div>
+                <ul class="list-unstyled pt-5">
+                  <li>
+                    <h2 class="h2">Prototyping</h2>
+                  </li>
+                  <li>
+                    <h2>Data Analytics</h2>
+                  </li>
+                  <li>
+                    <h2>User Testing</h2>
+                  </li>
+                  <li>
+                    <h2>Deployment</h2>
+                  </li>
+                </ul>
+              </mat-card-content>
+              <mat-card-actions>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="hire-me" class="hire-me mt-5 mb-5" style="padding: 7em;">
+    <div class="hire-me-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 d-flex align-items-center">
+            <div class="hire-me-item">
+              <span class="lead hire-me-txt">I am <strong class="font-weight-bold">available</strong>
+                for freelancing</span>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 d-flex align-items-center">
+            <!--div class="wrap">
+              <button class="button">Hire Me</button>
+            </div-->
+            <div class="hire-me-item wrap">
+              <button class="hire-me-btn">Hire Me</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="projects" class="container my-projects">
+    <div class="heading text-center mx-auto pb-4">
+      <h1 class="display-1 font-weight-bold">Projects</h1>
+      <h5 class="lead text-capitalize">Some of the Work I have been involved in</h5>
+    </div>
+    <div class="projects mb-5 pb-5">
+      <mat-grid-list cols="4" rowHeight="2:1">
+        <mat-grid-tile colspan="2" rowspan="2" class="blue">1</mat-grid-tile>
+        <mat-grid-tile class="blue">2</mat-grid-tile>
+        <mat-grid-tile class="blue">3</mat-grid-tile>
+        <mat-grid-tile class="blue">4</mat-grid-tile>
+        <mat-grid-tile colspan="1" rowspan="2" class="blue">5</mat-grid-tile>
+        <mat-grid-tile class="blue">6</mat-grid-tile>
+        <mat-grid-tile class="blue">7</mat-grid-tile>
+        <mat-grid-tile class="blue">8</mat-grid-tile>
+      </mat-grid-list>
+    </div>
+  </div>
+  <div id="contact" class="container contact pb-5">
+    <div class="heading text-center mx-auto pb-4">
+      <h1 class="display-1 font-weight-bold">Contact Me</h1>
+      <h5 class="lead text-capitalize">Reach Out, let's get to know each other. Don't Hesitate</h5>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-5 desktop-view-only"></div>
+      <div class="col-sm-12 col-md-7">
+        <div class="contact-form">
+          <form>
+            <mat-form-field class="w-100" appearance="fill">
+              <mat-label>Enter Your email</mat-label>
+              <input matInput placeholder="Your Email">
+              <mat-hint>youremail@mail.com</mat-hint>
+            </mat-form-field>
+            <br /><br />
+            <mat-form-field class="w-100" appearance="fill">
+              <mat-label>Enter Your Name</mat-label>
+              <input matInput placeholder="Your Name">
+              <mat-hint>Allan Kayz</mat-hint>
+            </mat-form-field>
+            <br /><br />
+            <mat-form-field class="w-100" appearance="fill">
+              <mat-label>Subject</mat-label>
+              <input matInput placeholder="Subject">
+              <mat-hint>Can we meet in person</mat-hint>
+            </mat-form-field>
+            <br /><br />
+            <mat-form-field class="w-100" appearance="fill">
+              <mat-label>Message</mat-label>
+              <textarea rows="10" matInput placeholder="Ex. It makes me feel..."></textarea>
+            </mat-form-field>
+            <br /><br />
+            <div class="wrapper">
+              <div class="link_wrapper">
+                <a href="#" class="submit">Send Message</a>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                    <path
+                      d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <!--button mat-raised-button class="contact-us-btn w-50">
+              <fa-icon [icon]="faEnvelope"></fa-icon>&nbsp;Send Message
+            </button-->
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="row mb-5 pt-5">
+      <div class="col-sm-12 col-md-3">
+        <div class="social-media mx-auto" data-aos="fade-up" data-aos-duration="3000">
+          <h3 class="h3 text-fontweight-bold text-uppercase">Lets Get Talking</h3>
+          <p class="paragraph">Lets connect, share ideas on how best to change the world using programming. Teach
+            each other various aspects of computer technology for human species betterment.</p>
+          <ul class="list-unstyled float-left mt-3">
+            <li class="d-inline p-2">
+              <a href="">
+                <fa-icon class="icon-color-animate facebook" [icon]="faFacebook" size="2x"></fa-icon>
+              </a>
+            </li>
+            <li class="d-inline p-2">
+              <a href="">
+                <fa-icon class="icon-color-animate twitter" [icon]="faTwitter" size="2x"></fa-icon>
+              </a>
+            </li>
+            <li class="d-inline p-2">
+              <a href="">
+                <fa-icon class="icon-color-animate linkedin" [icon]="faLinkedin" size="2x"></fa-icon>
+              </a>
+            </li>
+            <li class="d-inline p-2">
+              <a href="">
+                <fa-icon class="icon-color-animate youtube" [icon]="faYoutube" size="2x"></fa-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="services ml-md-5" data-aos="fade-up" data-aos-duration="3000">
+          <h3 class="text-uppercase mb3">Services</h3>
+          <ul class="list-unstyled">
+            <li class="list-animate">
+              <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Graphic Designing
+            </li>
+            <li class="list-animate">
+              <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Front-End Development
+            </li>
+            <li class="list-animate">
+              <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;GIS Consultancy
+            </li>
+            <li class="list-animate">
+              <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Mobile App UI/UX
+            </li>
+            <li class="list-animate">
+              <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Web App Development
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="links ml-md-5" data-aos="fade-up" data-aos-duration="3000">
+          <h3 class="text-uppercase">Links</h3>
+          <ul class="list-unstyled">
+            <li class="list-animate">
+              <a href="#home">
+                <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Home
+              </a>
+            </li>
+            <li class="list-animate">
+              <a href="#about">
+                <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;About
+              </a>
+            </li>
+            <li class="list-animate">
+              <a href="#skills">
+                <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Skills
+              </a>
+            </li>
+            <li class="list-animate">
+              <a href="#my-projects">
+                <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Projects
+              </a>
+            </li>
+            <li class="list-animate">
+              <a href="#contact">
+                <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Contact
+              </a>
+            </li>
+            <li class="list-animate">
+              <a routerLink="/playtime" routerLinkActive="active">
+                <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Playtime
+              </a>
+            </li>
+            <li class="list-animate">
+              <a routerLink="/dashboard" routerLinkActive="active">
+                <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Administration
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-3">
+        <div class="contact-details mx-auto" data-aos="fade-up" data-aos-duration="3000">
+          <h3 class="text-uppercase mb3">Have A Question?</h3>
+          <ul class="list-unstyled">
+            <li class="pb-2">
+              <fa-icon [icon]="faWhatsapp"></fa-icon>&nbsp;&nbsp;&nbsp;+1 (478) 551-2206
+            </li>
+            <li class="pb-2">
+              <fa-icon [icon]="faEnvelope"></fa-icon>&nbsp;&nbsp;&nbsp;allankanyemba@gmail.com
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <span class="footer-note justify-content-center mx-auto pb-3">
+        <span class="copyrights text-monospace">&copy;&nbsp;Allan Kanyemba {{ currentYear }}&nbsp;All
+          Rights Reserved&nbsp;|</span>
+        <span class=" developer-details text-monospace">&nbsp;Developed by&nbsp;<a href=""><img src="../../favicon.ico"
+              width="30px" height="30px"></a></span>
+      </span>
+    </div>
+  </div>
+</footer>
