@@ -31,6 +31,8 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
     "ngx-owl-carousel-o": "^4.0.0",
+    "ngx-page-scroll": "^7.0.3",
+    "ngx-page-scroll-core": "^7.0.3",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

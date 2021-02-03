@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MaterialModule,
     FormsModule,
     CarouselModule,
-    NgbModule
+    NgbModule,
+    NgxPageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,18 +3,18 @@
     <mat-toolbar class="bg-transparent">
       <span class="logo navbar-brand">AlKayz</span>
       <span class="spacer"></span>
-      <span class="nav-link text-capitalize desktop-view-only">Home</span>
-      <span class="nav-link text-capitalize desktop-view-only">About Me</span>
-      <span class="nav-link text-capitalize desktop-view-only">Portfolio</span>
-      <span class="nav-link text-capitalize desktop-view-only">Contact</span>
+      <span class="nav-link text-capitalize desktop-view-only"><a pageScroll href="#home-section">Home</a></span>
+      <span class="nav-link text-capitalize desktop-view-only"><a pageScroll href="#about">About Me</a></span>
+      <span class="nav-link text-capitalize desktop-view-only"><a pageScroll href="#projects">Portfolio</a></span>
+      <span class="nav-link text-capitalize desktop-view-only"><a pageScroll href="#contact">Contact</a></span>
       <button mat-button [matMenuTriggerFor]="beforeMenu" class="mobile-view-only">
         <fa-icon [icon]="faBars" size="2x"></fa-icon>
       </button>
       <mat-menu #beforeMenu="matMenu" xPosition="before">
-        <span mat-menu-item class="text-capitalize"><a href="#home-section">Home</a></span>
-        <span mat-menu-item class="text-capitalize"><a href="#about">About Me</a></span>
-        <span mat-menu-item class="text-capitalize"><a href="#projects">Portfolio</a></span>
-        <span mat-menu-item class="text-capitalize"><a href="#contact">Contact</a></span>
+        <span mat-menu-item class="text-capitalize"><a pageScroll href="#home-section">Home</a></span>
+        <span mat-menu-item class="text-capitalize"><a pageScroll href="#about">About Me</a></span>
+        <span mat-menu-item class="text-capitalize"><a pageScroll href="#projects">Portfolio</a></span>
+        <span mat-menu-item class="text-capitalize"><a pageScroll href="#contact">Contact</a></span>
       </mat-menu>
     </mat-toolbar>
   </div>
@@ -53,13 +53,13 @@
             </p>
           </div>
           <div class="row mt-5">
-            <div class="col-sm-12 col-md-6" data-aos="fade-left" data-aos-duration="2000">
+            <div class="col-sm-12 col-md-6" data-aos="flip-left" data-aos-duration="2000">
               <h3 class="text-uppercase">Web App Development</h3>
               <p class="paragraph">
                 Clean, modern designs - optimised for perfomance, search engines and converting users to customers.
               </p>
             </div>
-            <div class="col-sm-12 col-md-6" data-aos="fade-left" data-aos-duration="3000">
+            <div class="col-sm-12 col-md-6" data-aos="flip-right" data-aos-duration="3000">
               <h3 class="text-uppercase">Geo-Information</h3>
               <p class="paragraph">
                 Browser-based software application development tasks which require unique solutions to web GIS or web
@@ -78,38 +78,38 @@
     </div>
     <div class="skills-rating">
       <div class="row">
-        <div class="col-sm-12 col-md-6" data-aos="fade-right" data-aos-duration="2000">
-          <div class="photoshop pb-3">
+        <div class="col-sm-12 col-md-6">
+          <div class="photoshop pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>Photoshop&nbsp;(&nbsp;{{photoshopValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{photoshopValue}}"></mat-progress-bar>
           </div>
-          <div class="qgis pb-3">
+          <div class="qgis pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>QGIS&nbsp;(&nbsp;{{qgisValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{qgisValue}}"></mat-progress-bar>
           </div>
-          <div class="arcgis pb-3">
+          <div class="arcgis pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>ArcGIS&nbsp;(&nbsp;{{arcgisValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{arcgisValue}}"></mat-progress-bar>
           </div>
-          <div class="autocad pb-3">
+          <div class="autocad pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>Autocad&nbsp;(&nbsp;{{autocadValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{autocadValue}}"></mat-progress-bar>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6" data-aos="fade-left" data-aos-duration="2000">
-          <div class="angular pb-3">
+        <div class="col-sm-12 col-md-6">
+          <div class="angular pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>Angular&nbsp;(&nbsp;{{angularValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{angularValue}}"></mat-progress-bar>
           </div>
-          <div class="html5 pb-3">
+          <div class="html5 pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>Html5&nbsp;(&nbsp;{{htmlValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{htmlValue}}"></mat-progress-bar>
           </div>
-          <div class="css3 pb-3">
+          <div class="css3 pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>CSS3&nbsp;(&nbsp;{{cssValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{cssValue}}"></mat-progress-bar>
           </div>
-          <div class="autocad pb-3">
+          <div class="autocad pb-3" data-aos="fade-down" data-aos-duration="2000">
             <h3>PHP&nbsp;(&nbsp;{{phpValue}}%&nbsp;)</h3>
             <mat-progress-bar mode="determinate" value="{{phpValue}}"></mat-progress-bar>
           </div>
