@@ -1,7 +1,8 @@
 <header id="header" class="container-fluid sticky-top header" [class.header_change]="headerVariable">
+  <!--Navigation Section-->
   <div class="container">
-    <mat-toolbar class="bg-transparent">
-      <span class="logo navbar-brand">AlKayz</span>
+    <mat-toolbar class="bg-transparent navigation">
+      <span class="logo navbar-brand"><img src="../../favicon.ico" class="img-fluid" width="50px" height="50px"></span>
       <span class="spacer"></span>
       <span class="nav-link text-capitalize desktop-view-only"><a pageScroll href="#home-section">Home</a></span>
       <span class="nav-link text-capitalize desktop-view-only"><a pageScroll href="#about">About Me</a></span>
@@ -10,23 +11,25 @@
       <button mat-button [matMenuTriggerFor]="beforeMenu" class="mobile-view-only">
         <fa-icon [icon]="faBars" size="2x"></fa-icon>
       </button>
-      <mat-menu #beforeMenu="matMenu" xPosition="before">
-        <span mat-menu-item class="text-capitalize"><a pageScroll href="#home-section">Home</a></span>
-        <span mat-menu-item class="text-capitalize"><a pageScroll href="#about">About Me</a></span>
-        <span mat-menu-item class="text-capitalize"><a pageScroll href="#projects">Portfolio</a></span>
-        <span mat-menu-item class="text-capitalize"><a pageScroll href="#contact">Contact</a></span>
+      <mat-menu #beforeMenu="matMenu" xPosition="before" class="mobile-device-menu">
+        <span mat-menu-item class="text-uppercase"><a pageScroll href="#home-section">Home</a></span>
+        <span mat-menu-item class="text-uppercase"><a pageScroll href="#about">About Me</a></span>
+        <span mat-menu-item class="text-uppercase"><a pageScroll href="#projects">Portfolio</a></span>
+        <span mat-menu-item class="text-uppercase"><a pageScroll href="#contact">Contact</a></span>
       </mat-menu>
     </mat-toolbar>
   </div>
 </header>
 <main>
+  <!--Banner Section-->
   <div class="site-blocks-cover overlay bg-light" id="home-section">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-12 mt-lg-5 text-left align-self-center text-intro">
           <div class="row">
             <div class="col-lg-6">
-              <h1 class="text-black pb-4 typewriter activewords">I'm Allan Kanyemba</h1>
+              <h1 class="text-black pb-4 typewriter activewords">I'm <b style="color: #cb2d5f;">Allan</b><b
+                  style="color: #367692; padding-left: 8px;">Kanyemba</b></h1>
               <p class="lead pb-3" data-aos="fade-left" data-aos-duration="2000">If you're a business/individual seeking
                 web presence or looking to hire, get in touch.
               </p>
@@ -38,6 +41,7 @@
     </div>
     <img src="assets/images/face.png" alt="Image" class="img-face">
   </div>
+  <!--About Section-->
   <div id="about" class="container about-section pb-5 pt-5">
     <div class="row">
       <div class="col-sm-12 col-md-6">
@@ -45,7 +49,7 @@
       <div class="col-sm-12 col-md-6">
         <div class="about-me">
           <div data-aos="fade-down" data-aos-duration="1000">
-            <h1 class="display-1 font-weight-bold">About Me</h1>
+            <h1 class="display-1 font-weight-bold logo-pink">About Me</h1>
             <p class="paragraph pb-5">
               Allan Kanyemba is Web App developer and Geospatial Systems developer from Zimbabwe. He has been in fields
               for sometime coming up with business and customer oriented solutions using geospatial technologies coupled
@@ -71,9 +75,10 @@
       </div>
     </div>
   </div>
+  <!--Skills Section-->
   <div id="skills" class="container skills-section pt-5">
     <div class="heading text-center mx-auto pb-5">
-      <h1 class="display-1 font-weight-bold">Skills</h1>
+      <h1 class="display-1 font-weight-bold logo-blue">Skills</h1>
       <h5 class="lead">Strengths and Weaknesses</h5>
     </div>
     <div class="skills-rating">
@@ -118,7 +123,7 @@
     </div>
     <div class="what-i-do">
       <div class="heading text-center mx-auto pb-5 pt-5">
-        <h1 class="display-1 font-weight-bold">What I Do</h1>
+        <h1 class="display-1 font-weight-bold logo-pink">What I Do</h1>
         <h5 class="lead text-capitalize">Strategise, Design and add a pinch of magic</h5>
       </div>
       <div class="row">
@@ -202,6 +207,7 @@
       </div>
     </div>
   </div>
+  <!--Hire Me Section-->
   <div id="hire-me" class="hire-me mt-5 mb-5" style="padding: 7em;">
     <div class="hire-me-content">
       <div class="container">
@@ -224,9 +230,10 @@
       </div>
     </div>
   </div>
+  <!--Projects/Portfolio Section-->
   <div id="projects" class="container my-projects">
     <div class="heading text-center mx-auto pb-4">
-      <h1 class="display-1 font-weight-bold">Projects</h1>
+      <h1 class="display-1 font-weight-bold logo-blue">Projects</h1>
       <h5 class="lead text-capitalize">Some of the Work I have been involved in</h5>
     </div>
     <div class="projects mb-5 pb-5">
@@ -242,9 +249,10 @@
       </mat-grid-list>
     </div>
   </div>
+  <!--Contact Section-->
   <div id="contact" class="container contact pb-5">
     <div class="heading text-center mx-auto pb-4">
-      <h1 class="display-1 font-weight-bold">Contact Me</h1>
+      <h1 class="display-1 font-weight-bold logo-pink">Contact Me</h1>
       <h5 class="lead text-capitalize">Reach Out, let's get to know each other. Don't Hesitate</h5>
     </div>
     <div class="row">
@@ -295,6 +303,7 @@
     </div>
   </div>
 </main>
+<!--Footer Section-->
 <footer class="footer">
   <div class="container">
     <div class="row mb-5 pt-5">
@@ -352,29 +361,29 @@
       <div class="col-sm-12 col-md-3">
         <div class="links ml-md-5" data-aos="fade-up" data-aos-duration="3000">
           <h3 class="text-uppercase">Links</h3>
-          <ul class="list-unstyled">
+          <ul class="list-unstyled footer-links">
             <li class="list-animate">
-              <a href="#home">
+              <a pageScroll href="#home-section">
                 <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Home
               </a>
             </li>
             <li class="list-animate">
-              <a href="#about">
+              <a pageScroll href="#about">
                 <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;About
               </a>
             </li>
             <li class="list-animate">
-              <a href="#skills">
+              <a pageScroll href="#skills">
                 <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Skills
               </a>
             </li>
             <li class="list-animate">
-              <a href="#my-projects">
+              <a pageScroll href="#projects">
                 <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Projects
               </a>
             </li>
             <li class="list-animate">
-              <a href="#contact">
+              <a pageScroll href="#contact">
                 <fa-icon [icon]="faArrowRight"></fa-icon>&nbsp;&nbsp;Contact
               </a>
             </li>
@@ -396,7 +405,7 @@
           <h3 class="text-uppercase mb3">Have A Question?</h3>
           <ul class="list-unstyled">
             <li class="pb-2">
-              <fa-icon [icon]="faWhatsapp"></fa-icon>&nbsp;&nbsp;&nbsp;+1 (478) 551-2206
+              <fa-icon [icon]="faWhatsapp"></fa-icon>&nbsp;&nbsp;&nbsp;+263 774 833 890
             </li>
             <li class="pb-2">
               <fa-icon [icon]="faEnvelope"></fa-icon>&nbsp;&nbsp;&nbsp;allankanyemba@gmail.com

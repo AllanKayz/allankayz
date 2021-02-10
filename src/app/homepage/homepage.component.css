@@ -5,7 +5,7 @@
 }
 
 ::ng-deep .mat-card:not([class*=mat-elevation-z]) {
-  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
+  box-shadow: 4px 0 20px -5px rgba(250, 34, 60, 0.589);
   /*box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);*/
 }
 
@@ -47,6 +47,30 @@
   top: 0;
   left: 0;
   transition: 2s all ease;
+}
+
+.navigation a,
+::ng-deep .mat-menu-item a,
+.mobile-device-menu a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.navigation a:hover,
+::ng-deep .mat-menu-item a:hover,
+.footer-links a {
+  text-decoration: none;
+  color: #367692;
+}
+
+.navigation a:hover {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 4px 1px #ffffff,
+    0 0 8px 4px #cb2d5f,
+    0 0 12px 7px #367692;
 }
 
 /* Blocks */
@@ -181,6 +205,7 @@
 
 .hire-me-txt {
   font-size: 40px;
+  line-height: 0.8;
 }
 
 .wrap {
@@ -191,7 +216,7 @@
 }
 
 .hire-me-btn {
-  min-width: 300px;
+  min-width: 200px;
   min-height: 60px;
   font-family: 'Nunito', sans-serif;
   font-size: 22px;
@@ -214,7 +239,7 @@
 .hire-me-btn::before {
   content: '';
   border-radius: 1000px;
-  min-width: calc(300px + 12px);
+  min-width: calc(200px + 12px);
   min-height: calc(60px + 12px);
   border: 6px solid #00FFCB;
   box-shadow: 0 0 60px rgba(0, 255, 203, .64);
@@ -311,6 +336,7 @@
   }
 }
 
+/* Glow btn effect */
 .glow-on-hover {
   font-weight: bold;
   font-size: 18px;
@@ -427,19 +453,19 @@
   top: calc(50% - 15px);
   left: calc(50% - 15px);
   transform: rotate(-45deg);
-  fill: #00FFCB;
+  fill: #cb2d5f;
   transition: all .35s;
 }
 
 .submit:hover {
   width: 200px;
-  border: 3px solid #00FFCB;
+  border: 3px solid #cb2d5f;
   background: transparent;
-  color: #00FFCB;
+  color: #cb2d5f;
 }
 
 .submit:hover+.icon {
-  border: 3px solid #00FFCB;
+  border: 3px solid #cb2d5f;
   right: -25%;
 }
 
@@ -449,6 +475,10 @@
     margin-top: 20px;
     border-radius: 50px;
     width: 100%;
+  }
+
+  .hire-me {
+    height: 350px;
   }
 
   .site-blocks-cover {
