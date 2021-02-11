@@ -1,3 +1,28 @@
 <main>
-    
+  <section class="glass">
+    <h1 class="text-center pt-5 text-capitalize text-black-50 font-weight-bold">Administrator Section</h1>
+    <form class="loginForm">
+      <mat-form-field class="w-100" appearance="fill">
+        <mat-label>Enter Your Email</mat-label>
+        <input matInput placeholder="name@mail.com" [formControl]="email" required>
+        <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+      </mat-form-field>
+      <br /><br />
+      <mat-form-field class="w-100" appearance="fill">
+        <mat-label>Enter Password</mat-label>
+        <input matInput [type]="hide ? 'password' : 'text'">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+          [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+      <br /><br />
+      <button class="btn btn-lg w-50 float-right btn-lgn" mat-raised-button>Login</button>
+    </form>
+    <div class="return text-center font-weight-bold mt-4">
+      <a routerLink="/" routerLinkActive="active">
+        Return To Homepage &nbsp;&nbsp; >>>
+      </a>
+    </div>
+  </section>
 </main>

@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MaterialModule } from './material/material.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -30,6 +30,7 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     FontAwesomeModule,
     MaterialModule,
     FormsModule,
+    ReactiveFormsModule,
     CarouselModule,
     NgbModule,
     NgxPageScrollModule
