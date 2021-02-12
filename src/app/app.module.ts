@@ -18,6 +18,7 @@ import { DashboardStatsComponent } from './dashboard/dashboard-stats/dashboard-s
 import { ManageMessagesComponent } from './dashboard/manage-messages/manage-messages.component';
 import { SettingsComponent } from './dashboard/settings/settings.component';
 import { ManageBlogComponent } from './dashboard/manage-blog/manage-blog.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { ManageBlogComponent } from './dashboard/manage-blog/manage-blog.compone
     DashboardStatsComponent,
     ManageMessagesComponent,
     SettingsComponent,
-    ManageBlogComponent
+    ManageBlogComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,

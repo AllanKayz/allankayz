@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-not-found {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*color: transparent;*/
+  content: '';
+  background: black;
+  background-clip: text;
+  text-shadow: 2px 5px 5px rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  font-size: 100px;
+  padding: 20px;
+}
+
+h6 {
+  padding: 2px;
+  font-size: medium;
+}
+
+a {
+  text-decoration: none;
+  background-color: brown;
+  border-radius: 25px;
+}

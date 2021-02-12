@@ -8,6 +8,7 @@ import { DashboardStatsComponent } from './dashboard/dashboard-stats/dashboard-s
 import { ManageMessagesComponent } from './dashboard/manage-messages/manage-messages.component';
 import { ManageBlogComponent } from './dashboard/manage-blog/manage-blog.component';
 import { SettingsComponent } from './dashboard/settings/settings.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
       { path: 'inbox', component: ManageMessagesComponent },
       { path: 'manage-blog', component: ManageBlogComponent },
       { path: 'settings', component: SettingsComponent }]
-  }
+  },
+  { path: '**', component: PagenotfoundComponent }
 ];
 
 @NgModule({
