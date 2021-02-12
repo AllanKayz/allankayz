@@ -44,25 +44,30 @@ main {
   margin: .5rem 0rem;
 }
 
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
 .link:hover {
   background: beige;
 }
 
-.link-active {
-  width: 1%;
-  background-color: #cb2d5f;
-}
-
 .link-info {
+  width: 100%;
   display: flex;
   align-items: center;
-  margin: 0.5rem 0rem;
-  margin-left: 5rem;
+  padding-left: 5rem;
 }
 
 .link-info h3 {
   padding: 0 1rem;
   margin-top: 15px;
+}
+
+.link-active {
+  background: whitesmoke;
+  border-left: 3px solid #cb2d5f;
 }
 
 .right-panel {

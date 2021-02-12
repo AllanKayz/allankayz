@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'playtime', component: PlaytimeComponent },
   {
     path: 'dashboard', component: DashboardComponent, children: [
+      { path: 'dashboard', redirectTo: '/dashboard-stats', pathMatch: 'full' },
       { path: 'dashboard-stats', component: DashboardStatsComponent },
       { path: 'inbox', component: ManageMessagesComponent },
       { path: 'manage-blog', component: ManageBlogComponent },
