@@ -1,16 +1,47 @@
 <main>
   <section class="glastic">
-    <div class="dashboard">
+    <div class="left-panel">
       <div class="user">
         <img src="" alt="">
         <h3>{{username}}</h3>
         <p>{{role}}</p>
       </div>
       <div class="links">
-          <div class="link">
-              
-          </div>
+        <div class="link">
+          <a routerLink="/dashboard-stats" routerLinkActive="active" class="link-info">
+            <fa-icon [icon]="faEnvelope" size="2x"></fa-icon>
+            <h3 class="font-weight-bold">Dashboard</h3>
+          </a>
+        </div>
+        <div class="link">
+          <div class="link-active"></div>
+          <a routerLink="/inbox" routerLinkActive="active" class="link-info">
+            <fa-icon [icon]="faEnvelope" size="2x"></fa-icon>
+            <h3 class="font-weight-bold">Inbox</h3>
+          </a>
+        </div>
+        <div class="link">
+          <a routerLink="/manage-blog" routerLinkActive="active" class="link-info">
+            <fa-icon [icon]="faEnvelope" size="2x"></fa-icon>
+            <h3 class="font-weight-bold">Blog</h3>
+          </a>
+        </div>
+        <div class="link">
+          <a routerLink="/settings" routerLinkActive="active" class="link-info">
+            <fa-icon [icon]="faEnvelope" size="2x"></fa-icon>
+            <h3 class="font-weight-bold">Settings</h3>
+          </a>
+        </div>
       </div>
+      <div class="footer">
+        <p>Version 1.0</p>
+      </div>
+    </div>
+    <div class="right-panel">
+      <div class="dashboard-content">
+        <h1 class="text-uppercase">Dashboard</h1>
+      </div>
+      <router-outlet></router-outlet>
     </div>
   </section>
 </main>

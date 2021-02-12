@@ -7,6 +7,8 @@ import { faArrowRight, faArrowLeft, faEnvelope, faMobileAlt, faBars } from '@for
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  // Font awesome Icons
+  faEnvelope = faEnvelope;
   username = 'Allan Kanyemba';
   role = 'Administrator';
 

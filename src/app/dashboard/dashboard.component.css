@@ -17,7 +17,54 @@ main {
   width: 98%;
   min-height: 98vh;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
-  border-radius: 1rem;
+  border-radius: .5rem;
   z-index: 3;
   backdrop-filter: blur(2rem);
+  display: flex;
+}
+
+.left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+}
+
+.links {
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  margin: .5rem 0rem;
+}
+
+.link:hover {
+  background: beige;
+}
+
+.link-active {
+  width: 1%;
+  background-color: #cb2d5f;
+}
+
+.link-info {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0rem;
+  margin-left: 5rem;
+}
+
+.link-info h3 {
+  padding: 0 1rem;
+  margin-top: 15px;
+}
+
+.right-panel {
+  flex: 3;
 }

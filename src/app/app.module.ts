@@ -14,14 +14,21 @@ import { LoginComponent } from './login/login.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
-
+import { DashboardStatsComponent } from './dashboard/dashboard-stats/dashboard-stats.component';
+import { ManageMessagesComponent } from './dashboard/manage-messages/manage-messages.component';
+import { SettingsComponent } from './dashboard/settings/settings.component';
+import { ManageBlogComponent } from './dashboard/manage-blog/manage-blog.component';
 @NgModule({
   declarations: [
     AppComponent,
     PlaytimeComponent,
     DashboardComponent,
     LoginComponent,
-    HomepageComponent
+    HomepageComponent,
+    DashboardStatsComponent,
+    ManageMessagesComponent,
+    SettingsComponent,
+    ManageBlogComponent
   ],
   imports: [
     BrowserModule,
