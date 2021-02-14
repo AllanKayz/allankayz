@@ -1,0 +1,28 @@
+@import url('../../../assets/styles/dashboard.css');
+
+.overview-stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+}
+
+.box,
+.detailed-website-visits,
+.ads-revenue-graph {
+  border-radius: 5px;
+  background-color: rgba(234, 255, 254, 0.7);
+}
+
+.detailed-website-visits {
+  width: 100%;
+  height: 500px;
+}
+
+.ads-revenue-graph {
+  width: 100%;
+  height: 500px;
+}

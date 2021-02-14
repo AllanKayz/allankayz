@@ -1,0 +1,18 @@
+main {
+  height: 87%;
+  overflow-y: scroll;
+  padding: 1rem 2rem;
+}
+
+main::-webkit-scrollbar {
+  width: 2px;
+}
+
+main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+main::-webkit-scrollbar-thumb {
+  background-color: #cb2d5f;
+  outline: 1px solid #cb2d5f;
+}

@@ -15,7 +15,7 @@ main {
 .glastic {
   background: white;
   width: 98%;
-  min-height: 98vh;
+  height: 98vh;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
   border-radius: .5rem;
   z-index: 3;
@@ -72,5 +72,8 @@ main {
 
 .right-panel {
   flex: 3;
+}
+
+.right-panel-header {
   padding: 1rem 3rem;
 }
