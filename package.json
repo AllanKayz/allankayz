@@ -30,6 +30,8 @@
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
+    "emailjs": "^3.4.0",
+    "emailjs-com": "^2.6.4",
     "ngx-owl-carousel-o": "^4.0.0",
     "ngx-page-scroll": "^7.0.3",
     "ngx-page-scroll-core": "^7.0.3",

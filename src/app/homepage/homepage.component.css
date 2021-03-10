@@ -32,11 +32,11 @@
   transition: 1s all ease;
 }
 
-.header:hover {
+/*.header:hover {
   background: rgb(248, 248, 248);
   box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.589);
   transition: 1s all ease;
-}
+}*/
 
 .header_change {
   position: fixed;
@@ -67,10 +67,14 @@
 .navigation a:hover {
   border-radius: 5px;
   padding: 5px;
-  background-color: #ffffff;
-  box-shadow: 0 0 4px 1px #ffffff,
+  /*background-color: #ffffff;*/
+  border-bottom: 2px solid #cb2d5f;
+  border-right: 2px solid #cb2d5f;
+  border-left: 2px solid #367692;
+  border-top: 2px solid #367692;
+  /*box-shadow: 0 0 4px 1px #ffffff,
     0 0 8px 4px #cb2d5f,
-    0 0 12px 7px #367692;
+    0 0 12px 7px #367692;*/
 }
 
 /* Blocks */
@@ -142,6 +146,44 @@
   }
 }
 
+.spinner {
+  margin: auto;
+}
+
+.spinner-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.spinner-label fa-icon {
+  color: #ffffff;
+}
+
+::ng-deep .mat-progress-spinner circle {
+  fill: rgba(203, 45, 95, .7) !important;
+}
+
+::ng-deep .mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #367692 !important;
+}
+
+mat-progress-spinner:hover {
+  border-radius: 50%;
+  box-shadow: 12px 22px 24px rgba(79, 209, 197, .64);
+  transition: 1s all ease;
+}
+
+.spinner-label:hover {
+  color: #000000;
+  transition: 1s all ease;
+}
+
 .list-animate {
   padding: 5px 0;
   transition: .2s all ease;
@@ -178,7 +220,7 @@
 }
 
 .hire-me {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+  background: url('../../assets/images/codingCover.png');
   background-attachment: fixed;
   height: 300px;
   position: relative;
@@ -234,6 +276,7 @@
   outline: none;
   position: relative;
   padding: 10px;
+  text-decoration: none;
 }
 
 .hire-me-btn::before {
@@ -422,17 +465,19 @@
 .submit {
   display: block;
   width: 250px;
-  height: 50px;
   line-height: 50px;
   font-weight: bold;
   text-decoration: none;
-  background: #333;
+  background: #367692;
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 3px solid #333;
+  border: 3px solid #367692;
   transition: all .35s;
+  /*color: #3d0c02;
+  color:#843722;
+  color:#af6e51;*/
 }
 
 .icon {
@@ -469,7 +514,6 @@
   right: -25%;
 }
 
-
 @media (max-width: 768px) {
   .hire-me-btn {
     margin-top: 20px;
@@ -488,4 +532,12 @@
   .site-blocks-cover h1 {
     font-size: 1.8rem;
   }
+
+  .email-footer {
+    font-size: .65rem;
+  }
+}
+
+.show {
+  display: block;
 }

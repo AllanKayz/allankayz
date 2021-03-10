@@ -19,6 +19,9 @@ import { ManageMessagesComponent } from './dashboard/manage-messages/manage-mess
 import { SettingsComponent } from './dashboard/settings/settings.component';
 import { ManageBlogComponent } from './dashboard/manage-blog/manage-blog.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { NewMessageComponent } from './dashboard/manage-messages/new-message/new-message.component';
+import { ChatComponent } from './dashboard/manage-messages/chat/chat.component';
+import { MessagesListComponent } from './dashboard/manage-messages/messages-list/messages-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +33,10 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     ManageMessagesComponent,
     SettingsComponent,
     ManageBlogComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    NewMessageComponent,
+    ChatComponent,
+    MessagesListComponent
   ],
   imports: [
     BrowserModule,
