@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies":["emailjs-com"],
             "outputPath": "dist/myPortfolio",
             "index": "src/index.html",
             "main": "src/main.ts",

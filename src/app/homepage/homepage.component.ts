@@ -62,11 +62,11 @@ export class HomepageComponent implements OnInit {
 
   // Button Lets talk click event
   btnLetsTalk(): any {
-    return window.location.href = "https://wa.me/263774833890?text=Hey%20Allan,%20Just%20Viewed%20Your%20Profile%20Thought%20We%20Should%20Talk%20More";
+    return window.location.href = 'https://wa.me/263774833890?text=Hey%20Allan,%20Just%20Viewed%20Your%20Profile%20Thought%20We%20Should%20Talk%20More';
   }
-
+  // Button Hire Me
   btnHireMe(): any {
-    return window.location.href = "mailto:allankanyemba@gmail.com";
+    return window.location.href = 'mailto:allankanyemba@gmail.com';
   }
 
   // Contact Form

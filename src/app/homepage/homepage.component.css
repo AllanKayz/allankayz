@@ -116,6 +116,23 @@
   }
 }
 
+@media (min-width: 760px) and (min-height:800px) {
+
+  .site-blocks-cover,
+  .site-blocks-cover>.container,
+  .site-blocks-cover>.container>.row {
+    min-height: 700px;
+  }
+
+  .site-blocks-cover img {
+    height: 100%;
+  }
+
+  .site-blocks-cover h1 {
+    font-size: 2.8rem !important;
+  }
+}
+
 .site-blocks-cover,
 .site-blocks-cover>.container,
 .site-blocks-cover>.container>.row {
