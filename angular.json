@@ -13,7 +13,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "allowedCommonJsDependencies":["emailjs-com"],
+            "allowedCommonJsDependencies": [
+              "emailjs-com"
+            ],
             "outputPath": "dist/myPortfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -123,6 +125,10 @@
               "devServerTarget": "myPortfolio:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
