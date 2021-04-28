@@ -190,7 +190,7 @@
   stroke: #367692 !important;
 }
 
-mat-progress-spinner:hover {
+.mat-progress-spinner:hover {
   border-radius: 50%;
   box-shadow: 12px 22px 24px rgba(79, 209, 197, .64);
   transition: 1s all ease;
