@@ -555,6 +555,12 @@
   }
 }
 
+@media (max-width: 280px) {
+  .site-blocks-cover h1 {
+    font-size: 1.5rem;
+  }
+}
+
 .show {
   display: block;
 }

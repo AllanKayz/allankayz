@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { faFacebook, faTwitter, faYoutube, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faArrowRight, faTools, faEnvelope, faMobileAlt, faBars, faLaptopCode, faMapMarkedAlt, faLayerGroup, faPencilRuler } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faTools, faEnvelope, faMobileAlt, faBars, faLaptopCode, faMapMarkedAlt, faLayerGroup, faCogs } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 
@@ -25,13 +25,13 @@ export class HomepageComponent implements OnInit {
   faLaptopCode = faLaptopCode;
   faMapMarkedAlt = faMapMarkedAlt;
   faLayerGroup = faLayerGroup;
-  faPencilRuler = faPencilRuler;
+  faCogs = faCogs;
   // Get Current Year
   currentYear: number = new Date().getFullYear();
   // progress spinner details
   color = 'primary';
   mode = 'determinate';
-  value = [65, 70, 40];
+  value = [65, 50, 40];
   diameter = 250;
   // Skills ProgressBars Values
   photoshopValue = 40;
@@ -72,10 +72,9 @@ export class HomepageComponent implements OnInit {
   // Contact Form
   public sendEmail(e: Event, contactForm): any {
     e.preventDefault();
-    // Get an array of contactForm keys
-    const formData: any = Object.keys(contactForm.value).filter((key) => contactForm.value[key]);
-    // Check if keys match input fields
-    if (formData.length === 0 || formData.length !== 4) {
+
+    // Check if all fields are filled
+    if (!contactForm.valid) {
       return document.querySelector('.alert').classList.add('show');
     }
     // if they match send data to server
@@ -85,6 +84,7 @@ export class HomepageComponent implements OnInit {
         .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
           if (result.text === 'OK') {
+            contactForm.reset();
             this.alertInformation = 'Message Sent Expect Reply Very Soon';
             return document.querySelector('.alert').classList.add('show');
           }
