@@ -80,7 +80,7 @@ export class HomepageComponent implements OnInit {
     // if they match send data to server
     else {
       const notification = document.querySelector('.alert').classList.remove('show');
-      emailjs.sendForm('service_o5at4qh', 'template_k1iz3u8', e.target as HTMLFormElement, 'user_hHAWzMAcXONz44iFZmU1n')
+      emailjs.sendForm('service_8oh5rci', 'template_k1iz3u8', e.target as HTMLFormElement, 'user_hHAWzMAcXONz44iFZmU1n')
         .then((result: EmailJSResponseStatus) => {
           console.log(result.text);
           if (result.text === 'OK') {
