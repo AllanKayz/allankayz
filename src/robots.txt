@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://allankayz.co.zw/sitemap.xml
