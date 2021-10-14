@@ -71,6 +71,10 @@
   &emsp;
   <a href="https://www.adobe.com/products/photoshop.html" target="_blank">
    <img alt="Adobe Photoshop" src="https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white"/>
+  </a>
+  &emsp;
+  <a href="https://www.canva.com">
+    <img alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"/>
   </a>	
   &emsp;
   <a href="https://www.adobe.com/products/premiere.html" target="_blank"> 
@@ -79,10 +83,6 @@
   &emsp;
   <a href="https://www.adobe.com/products/xd.html" target="_blank">
     <img alt="Adobe XD" src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6"/>
-  </a>
-    &emsp;
-  <a href="https://www.canva.com">
-    <img alt="Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white"/>
   </a>
  </p>
 
@@ -97,8 +97,6 @@
     <a href="#"><img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/></a>
   &emsp;
     <a href="#"><img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/></a>
-  &emsp;
-    <a href="#"><img alt="Google Sheets" src="https://img.shields.io/badge/Google%20Sheets%20-%2334A853.svg?logo=google%20sheets&logoColor=white"></a>
   &emsp;
     <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/></a>
   &emsp;
@@ -138,10 +136,10 @@
 ## 🙋🏿‍♂️ Let's Connect
 <p align="center">
   <a href="https://allankayz.co.zw/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
-	<a href="mailto:info@allankayz.co.zw"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
-	<a href="https://github.com/AllanKayz"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
-	<a href="https://twitter.com/KayzAllan"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png" alt="Twitter"/></a>
-	
+  <a href="mailto:info@allankayz.co.zw"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
+  <a href="https://github.com/AllanKayz"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+  <a href="https://twitter.com/KayzAllan"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png" alt="Twitter"/></a>
+  <a href="https://wa.me/263774833890?text=Hey%20Allan,%20Just%20Viewed%20Your%20Profile%20Thought%20We%20Should%20Talk%20More"><img src="https://img.icons8.com/bubbles/50/000000/whatsapp.png" alt="WhatsApp"/></a>	
 </p>
 
 <hr/>
