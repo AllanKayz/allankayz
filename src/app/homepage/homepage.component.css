@@ -227,6 +227,10 @@
   color: #0e76a8;
 }
 
+.github {
+  color: #000000;
+}
+
 .icon-color-animate {
   transition: .5s all ease;
 }
