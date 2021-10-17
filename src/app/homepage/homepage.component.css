@@ -247,7 +247,6 @@
   position: relative;
   overflow: hidden;
   background-size: cover;
-  position: relative;
 }
 
 .hire-me>.hire-me-content::after {
