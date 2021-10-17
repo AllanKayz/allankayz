@@ -13,10 +13,6 @@ main {
 }
 
 .glastic {
-  background: white;
-}
-
-.glastic {
   width: 98%;
   height: 98vh;
   background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
