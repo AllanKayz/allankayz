@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { faFacebook, faTwitter, faYoutube, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faYoutube, faLinkedin, faWhatsapp, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faArrowRight, faTools, faEnvelope, faMobileAlt, faBars, faLaptopCode, faMapMarkedAlt, faLayerGroup, faCogs } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
@@ -15,6 +15,7 @@ export class HomepageComponent implements OnInit {
   faFacebook = faFacebook;
   faTwitter = faTwitter;
   faYoutube = faYoutube;
+  faGithub = faGithub;
   faLinkedin = faLinkedin;
   faArrowRight = faArrowRight;
   faWhatsapp = faWhatsapp;
