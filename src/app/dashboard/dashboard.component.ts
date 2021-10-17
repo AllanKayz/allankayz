@@ -15,7 +15,7 @@ export class DashboardComponent implements OnInit {
   // Other variables
   username = 'Allan Kanyemba';
   role = 'Administrator';
-  rightPanelHeader = "Dashboard";
+  rightPanelHeader = 'Dashboard';
 
   constructor() { }
 

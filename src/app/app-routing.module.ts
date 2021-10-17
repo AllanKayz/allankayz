@@ -12,7 +12,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 
 const routes: Routes = [
-  //{ path: '', redirectTo: '/home', pathMatch: 'full' },
+  // { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '', component: HomepageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'playtime', component: PlaytimeComponent },
