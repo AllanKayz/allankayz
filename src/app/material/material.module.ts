@@ -74,7 +74,7 @@ const MaterialComponents = [
   MatButtonToggleModule,
   // MatNativeDateModule,
   // MatTabsModule
-]
+];
 
 
 @NgModule({
