@@ -9,6 +9,9 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=AllanKayz&label=Profile%20views&color=0e75b6&style=plastic" alt="Allan Kayz" /> </p>
 
 ## 🔥 Streak Stats
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/523a1d3d1c90472f92f7e554bb429021)](https://app.codacy.com/gh/AllanKayz/allankayz?utm_source=github.com&utm_medium=referral&utm_content=AllanKayz/allankayz&utm_campaign=Badge_Grade_Settings)
+
 <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=AllanKayz&theme=algolia" alt="Allan Kayz"  /></p>
 
 
