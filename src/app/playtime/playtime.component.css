@@ -12,7 +12,7 @@
 .engraved {
   padding: 5px;
   line-height: 1;
-  content: '';
+  content: "";
   font-size: 3em;
   font-weight: bold;
   position: absolute;

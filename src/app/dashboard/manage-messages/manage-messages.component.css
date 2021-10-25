@@ -1,4 +1,4 @@
-@import url('../../../assets/styles/dashboard.css');
+@import url("../../../assets/styles/dashboard.css");
 
 .inbox {
   display: flex;
@@ -111,7 +111,7 @@
 }
 
 .message-cover {
-  padding: .5rem 4rem;
+  padding: 0.5rem 4rem;
   border-left: 3px solid #367692;
   margin-bottom: 2px;
   border-bottom: 1px solid white;

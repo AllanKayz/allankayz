@@ -16,14 +16,14 @@ body {
   color: #367692;
 }
 
-@media(min-width:769px) {
+@media (min-width: 769px) {
   .mobile-view-only {
     display: none;
     visibility: hidden;
   }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .desktop-view-only {
     display: none;
     visibility: hidden;

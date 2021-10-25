@@ -36,7 +36,6 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 // import { MatNativeDateModule } from '@angular/material/core';
 // import { MatTabsModule } from '@angular/material/tabs';
 
-
 const MaterialComponents = [
   // MatAutocompleteModule,
   MatBadgeModule,
@@ -76,13 +75,9 @@ const MaterialComponents = [
   // MatTabsModule
 ];
 
-
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    MaterialComponents
-  ],
-  exports: [MaterialComponents]
+  imports: [CommonModule, MaterialComponents],
+  exports: [MaterialComponents],
 })
-export class MaterialModule { }
+export class MaterialModule {}
