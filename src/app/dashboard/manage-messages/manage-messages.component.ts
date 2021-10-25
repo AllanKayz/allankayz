@@ -30,7 +30,7 @@ export class ManageMessagesComponent implements OnInit {
     const zuvax = new Date(zuva);
     // date to human friendly readable format
     const mnth = zuvax.toLocaleString('default', { month: 'long' });
-    const chizuva = date + ' ' + mnth + ' ' + year;
+    const chizuva = date.toString() + ' ' + mnth.toString() + ' ' + year.toString();
     this.currentDate = chizuva;
   }
 }
