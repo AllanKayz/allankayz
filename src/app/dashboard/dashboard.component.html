@@ -3,31 +3,47 @@
     <!--Sidebar Nav-->
     <div class="left-panel">
       <div class="user">
-        <img src="" alt="">
-        <h3>{{username}}</h3>
-        <p>{{role}}</p>
+        <img src="" alt="" />
+        <h3>{{ username }}</h3>
+        <p>{{ role }}</p>
       </div>
       <div class="links">
         <div class="link">
-          <a routerLink="/dashboard/dashboard-stats" routerLinkActive="link-active" class="link-info">
+          <a
+            routerLink="/dashboard/dashboard-stats"
+            routerLinkActive="link-active"
+            class="link-info"
+          >
             <fa-icon [icon]="faTachometerAlt" size="2x"></fa-icon>
             <h3 class="font-weight-bold">Dashboard</h3>
           </a>
         </div>
         <div class="link">
-          <a routerLink="/dashboard/inbox" routerLinkActive="link-active" class="link-info">
+          <a
+            routerLink="/dashboard/inbox"
+            routerLinkActive="link-active"
+            class="link-info"
+          >
             <fa-icon [icon]="faEnvelope" size="2x"></fa-icon>
             <h3 class="font-weight-bold">Inbox</h3>
           </a>
         </div>
         <div class="link">
-          <a routerLink="/dashboard/manage-blog" routerLinkActive="link-active" class="link-info">
+          <a
+            routerLink="/dashboard/manage-blog"
+            routerLinkActive="link-active"
+            class="link-info"
+          >
             <fa-icon [icon]="faBookOpen" size="2x"></fa-icon>
             <h3 class="font-weight-bold">Blog</h3>
           </a>
         </div>
         <div class="link">
-          <a routerLink="/dashboard/settings" routerLinkActive="link-active" class="link-info">
+          <a
+            routerLink="/dashboard/settings"
+            routerLinkActive="link-active"
+            class="link-info"
+          >
             <fa-icon [icon]="faCogs" size="2x"></fa-icon>
             <h3 class="font-weight-bold">Settings</h3>
           </a>
@@ -40,7 +56,9 @@
     <!--Right Side Panel Views-->
     <div class="right-panel">
       <div class="right-panel-header">
-        <h1 class="text-uppercase font-weight-bold lead">{{rightPanelHeader}}</h1>
+        <h1 class="text-uppercase font-weight-bold lead">
+          {{ rightPanelHeader }}
+        </h1>
       </div>
       <router-outlet></router-outlet>
     </div>

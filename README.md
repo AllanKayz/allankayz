@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi , I'm Allan Kanyemba <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <p align="center">
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=Full+Stack+Web+Developer;GIS%20|%20DS%20|%20AI%20|%20ML%20Enthusiast;Graphic%20Designer;Always%20learning%20new%20things&center=true&width=500&height=50"></a>
@@ -13,7 +12,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/523a1d3d1c90472f92f7e554bb429021)](https://app.codacy.com/gh/AllanKayz/allankayz?utm_source=github.com&utm_medium=referral&utm_content=AllanKayz/allankayz&utm_campaign=Badge_Grade_Settings) [![CodeFactor](https://www.codefactor.io/repository/github/allankayz/allankayz/badge)](https://www.codefactor.io/repository/github/allankayz/allankayz)
 
 <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=AllanKayz&theme=algolia" alt="Allan Kayz"  /></p>
-
 
 ## 🛠️ My Skills
 
@@ -34,6 +32,7 @@
 </p>
 
 ### 👉🏾 Frontend Development
+
 <p align="left"> 
   &emsp; 
   <a href="https://www.w3schools.com/html/" target="_blank"> 
@@ -54,6 +53,7 @@
 </p>
 
 ### 👉🏾 Databases & Cloud Hosting
+
 <p align="left">
   &emsp;
     <a href:"https://www.mysql.com"><img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/></a>
@@ -89,8 +89,8 @@
   </a>
  </p>
 
- ### 👉🏾 Software & Tools
- 
+### 👉🏾 Software & Tools
+
 <p>
   &emsp;
     <a href="#"><img alt="Adobe" src="https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white"/></a>
@@ -109,8 +109,7 @@
 
 <br/>
 
-## 📊 Github Stats (Expand to View) 
-
+## 📊 Github Stats (Expand to View)
 
 <details> 
   <summary><b>💻 GitHub Profile Stats</b></summary>
@@ -125,7 +124,6 @@
   </p>
 </details>
 
-
 <details>
   <summary><b>⚡ Recent GitHub Activity</b></summary>
   <br/>
@@ -137,6 +135,7 @@
 <br/>
 
 ## 🙋🏿‍♂️ Let's Connect
+
 <p align="center">
   <a href="https://allankayz.co.zw/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
   <a href="mailto:info@allankayz.co.zw"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
@@ -147,15 +146,9 @@
 
 <hr/>
 
-* Credit: [Allan Kayz](https://github.com/AllanKayz)
-* Last Edited on: 14/10/2021
+- Credit: [Allan Kayz](https://github.com/AllanKayz)
+- Last Edited on: 14/10/2021
 
 [![DeepSource](https://deepsource.io/gh/AllanKayz/allankayz.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/AllanKayz/allankayz/?ref=repository-badge)
 
 [![DeepSource](https://deepsource.io/gh/AllanKayz/allankayz.svg/?label=resolved+issues&show_trend=true)](https://deepsource.io/gh/AllanKayz/allankayz/?ref=repository-badge)
-
-
-
-
-
-

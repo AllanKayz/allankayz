@@ -17,7 +17,7 @@ main {
   flex-direction: column;
   text-align: center;
   /*color: transparent;*/
-  content: '';
+  content: "";
   background: black;
   background-clip: text;
   text-shadow: 2px 5px 5px rgba(255, 255, 255, 0.3);

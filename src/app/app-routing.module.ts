@@ -10,25 +10,27 @@ import { ManageBlogComponent } from './dashboard/manage-blog/manage-blog.compone
 import { SettingsComponent } from './dashboard/settings/settings.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
-
 const routes: Routes = [
   // { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '', component: HomepageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'playtime', component: PlaytimeComponent },
   {
-    path: 'dashboard', component: DashboardComponent, children: [
+    path: 'dashboard',
+    component: DashboardComponent,
+    children: [
       { path: 'dashboard', redirectTo: '/dashboard-stats', pathMatch: 'full' },
       { path: 'dashboard-stats', component: DashboardStatsComponent },
       { path: 'inbox', component: ManageMessagesComponent },
       { path: 'manage-blog', component: ManageBlogComponent },
-      { path: 'settings', component: SettingsComponent }]
+      { path: 'settings', component: SettingsComponent },
+    ],
   },
-  { path: '**', component: PagenotfoundComponent }
+  { path: '**', component: PagenotfoundComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

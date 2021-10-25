@@ -1,10 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { faCalendarDay, faEnvelope, faPen, faPlus, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
+import {
+  faCalendarDay,
+  faEnvelope,
+  faPen,
+  faPlus,
+  faTrashAlt,
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-manage-messages',
   templateUrl: './manage-messages.component.html',
-  styleUrls: ['./manage-messages.component.css']
+  styleUrls: ['./manage-messages.component.css'],
 })
 export class ManageMessagesComponent implements OnInit {
   // Get Font Awesome Icons
@@ -17,7 +23,7 @@ export class ManageMessagesComponent implements OnInit {
   currentDate;
   // Number of new messages
   newMessages = 6;
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     const dateOb: Date = new Date();
@@ -30,7 +36,8 @@ export class ManageMessagesComponent implements OnInit {
     const zuvax = new Date(zuva);
     // date to human friendly readable format
     const mnth = zuvax.toLocaleString('default', { month: 'long' });
-    const chizuva = date.toString() + ' ' + mnth.toString() + ' ' + year.toString();
+    const chizuva =
+      date.toString() + ' ' + mnth.toString() + ' ' + year.toString();
     this.currentDate = chizuva;
   }
 }

@@ -15,8 +15,12 @@ main {
 .glass {
   width: 50%;
   min-height: 70vh;
-  background:white;
-  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
   border-radius: 1rem;
   z-index: 3;
   backdrop-filter: blur(2rem);

@@ -3,7 +3,7 @@
     <div class="tasks-and-reminders">
       <div class="current-date">
         <fa-icon [icon]="faCalendarDay" class="pr-2"></fa-icon>
-        <h3 class="font-weight-bold">{{currentDate}}</h3>
+        <h3 class="font-weight-bold">{{ currentDate }}</h3>
       </div>
       <div class="task-reminder">
         <div class="new-task">
@@ -13,7 +13,11 @@
             </mat-icon>
           </a>
         </div>
-        <div class="task-reminder-header text-capitalize pl-4 pb-3 text-black-50">My Tasks</div>
+        <div
+          class="task-reminder-header text-capitalize pl-4 pb-3 text-black-50"
+        >
+          My Tasks
+        </div>
         <div class="task-reminder-list"></div>
       </div>
     </div>
@@ -33,16 +37,29 @@
       </div>
       <div class="matsamba">
         <div class="messages-count-bar pt-3">
-          <div class="new-messages-count text text-capitalize pl-4 pb-3 text-black-50">you have
-            <strong>{{newMessages}}</strong> new messages</div>
+          <div
+            class="
+              new-messages-count
+              text text-capitalize
+              pl-4
+              pb-3
+              text-black-50
+            "
+          >
+            you have <strong>{{ newMessages }}</strong> new messages
+          </div>
           <div class="search-messages"></div>
         </div>
         <div id="messages-list" class="messages-list">
           <div class="message-cover">
             <div class="sender-details">
               <div class="sender">
-                <h4 class="message-center text-black-50 lead text-capitalize">John Doe</h4>
-                <small class="sender-mail text-monospace">(johndoe@mail.com)</small>
+                <h4 class="message-center text-black-50 lead text-capitalize">
+                  John Doe
+                </h4>
+                <small class="sender-mail text-monospace"
+                  >(johndoe@mail.com)</small
+                >
               </div>
               <div class="delete-message">
                 <fa-icon [icon]="faTrashAlt"></fa-icon>

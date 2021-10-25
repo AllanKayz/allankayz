@@ -36,7 +36,7 @@ import { MessagesListComponent } from './dashboard/manage-messages/messages-list
     PagenotfoundComponent,
     NewMessageComponent,
     ChatComponent,
-    MessagesListComponent
+    MessagesListComponent,
   ],
   imports: [
     BrowserModule,
@@ -48,9 +48,9 @@ import { MessagesListComponent } from './dashboard/manage-messages/messages-list
     ReactiveFormsModule,
     CarouselModule,
     NgbModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
