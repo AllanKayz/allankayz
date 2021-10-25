@@ -22,10 +22,10 @@ export class ManageMessagesComponent implements OnInit {
   ngOnInit(): void {
     const dateOb: Date = new Date();
     // adjust 0 single digit date
-    const date = ('0' + dateOb.getDate()).slice(-2);
+    const date = ('0' + dateOb.getDate().toString()).slice(-2);
     // current month
-    const month = ('0' + (dateOb.getMonth() + 1)).slice(-2);
-    const year = dateOb.getFullYear();
+    const month = ('0' + (dateOb.getMonth() + 1).toString()).slice(-2);
+    const year = dateOb.getFullYear().toString();
     const zuva = year + ',' + month + ',' + date;
     const zuvax = new Date(zuva);
     // date to human friendly readable format
