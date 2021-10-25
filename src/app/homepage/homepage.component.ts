@@ -107,7 +107,7 @@ export class HomepageComponent implements OnInit {
         )
         .then(
           (result: EmailJSResponseStatus) => {
-            console.log(result.text);
+            
             if (result.text === 'OK') {
               contactForm.reset();
               this.alertInformation = 'Message Sent Expect Reply Very Soon';
@@ -115,7 +115,7 @@ export class HomepageComponent implements OnInit {
             }
           },
           (error) => {
-            console.log(error.text);
+            
             this.alertInformation = 'Try again failed to send message';
             return document.querySelector('.alert').classList.add('show');
           }
