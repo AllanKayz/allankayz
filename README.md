@@ -150,7 +150,9 @@
 * Credit: [Allan Kayz](https://github.com/AllanKayz)
 * Last Edited on: 14/10/2021
 
+[![DeepSource](https://deepsource.io/gh/AllanKayz/allankayz.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/AllanKayz/allankayz/?ref=repository-badge)
 
+[![DeepSource](https://deepsource.io/gh/AllanKayz/allankayz.svg/?label=resolved+issues&show_trend=true)](https://deepsource.io/gh/AllanKayz/allankayz/?ref=repository-badge)
 
 
 
