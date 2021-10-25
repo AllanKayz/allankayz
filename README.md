@@ -152,3 +152,5 @@
 [![DeepSource](https://deepsource.io/gh/AllanKayz/allankayz.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/AllanKayz/allankayz/?ref=repository-badge)
 
 [![DeepSource](https://deepsource.io/gh/AllanKayz/allankayz.svg/?label=resolved+issues&show_trend=true)](https://deepsource.io/gh/AllanKayz/allankayz/?ref=repository-badge)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3c0f868f-b1b8-4524-b253-589682575d28/deploy-status)](https://app.netlify.com/sites/allankayz/deploys)
