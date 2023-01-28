@@ -137,7 +137,7 @@
 ## 🙋🏿‍♂️ Let's Connect
 
 <p align="center">
-  <a href="https://allankayz.co.zw/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
+  <a href="https://allankayz.netlify.app/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a>
   <a href="mailto:info@allankayz.co.zw"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
   <a href="https://github.com/AllanKayz"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
   <a href="https://twitter.com/KayzAllan"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png" alt="Twitter"/></a>
