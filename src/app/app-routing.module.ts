@@ -11,7 +11,7 @@ import { SettingsComponent } from './dashboard/settings/settings.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
-  // { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'zohoverify', redirectTo: '//zohoverify/zohoverify.html', pathMatch: 'full' },
   { path: '', component: HomepageComponent },
   { path: 'login', component: LoginComponent },
   { path: 'playtime', component: PlaytimeComponent },
