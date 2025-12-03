@@ -13,6 +13,17 @@
 
 <p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=AllanKayz&theme=algolia" alt="Allan Kayz"  /></p>
 
+## 🚀 Featured Projects
+
+- [🌍 GeoSpatial Dashboard](https://github.com/AllanKayz/geospatial-dashboard)  
+  Interactive mapping tool built with Leaflet, PostgreSQL, and Node.js.
+
+- [🤖 AI/ML Experiments](https://github.com/AllanKayz/ml-experiments)  
+  Collection of machine learning models and experiments in Python.
+
+- [🎨 Portfolio Website](https://github.com/AllanKayz/portfolio)  
+  Personal portfolio showcasing design + development projects.
+
 ## 🛠️ My Skills
 
 ### 👉🏾 Programming languages
