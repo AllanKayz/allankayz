@@ -373,7 +373,9 @@
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: 0.1em;
   /* Adjust as needed */
-  animation: typing 5.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation:
+    typing 5.5s steps(40, end),
+    blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */

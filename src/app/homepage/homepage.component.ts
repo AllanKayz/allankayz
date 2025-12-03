@@ -103,7 +103,7 @@ export class HomepageComponent implements OnInit {
           'service_8oh5rci',
           'template_k1iz3u8',
           e.target as HTMLFormElement,
-          'user_hHAWzMAcXONz44iFZmU1n'
+          'user_hHAWzMAcXONz44iFZmU1n',
         )
         .then(
           (result: EmailJSResponseStatus) => {
@@ -116,7 +116,7 @@ export class HomepageComponent implements OnInit {
           (error) => {
             this.alertInformation = 'Try again failed to send message';
             return document.querySelector('.alert').classList.add('show');
-          }
+          },
         );
     }
   }
