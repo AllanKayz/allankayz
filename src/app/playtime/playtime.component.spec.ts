@@ -6,13 +6,11 @@ describe('PlaytimeComponent', () => {
   let component: PlaytimeComponent;
   let fixture: ComponentFixture<PlaytimeComponent>;
 
-  beforeEach(
-    waitForAsync(() => {
-      TestBed.configureTestingModule({
-        declarations: [PlaytimeComponent],
-      }).compileComponents();
-    })
-  );
+  beforeEach(waitForAsync(() => {
+    TestBed.configureTestingModule({
+      declarations: [PlaytimeComponent],
+    }).compileComponents();
+  }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(PlaytimeComponent);
